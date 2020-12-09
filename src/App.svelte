@@ -1,6 +1,7 @@
 <script>
     import Home from "./Home.svelte"
     import LogIn from "./LogIn.svelte"
+    import Viewpost from "./Viewpost.svelte"
     import Editpost from "./Editpost.svelte"
     import SignIn from "./SignIn.svelte"
     import Overview from "./Overview.svelte"
@@ -22,11 +23,6 @@
         localStorage.setItem("doing", "login")
         localStorage.setItem("url", "/")
         location.reload()
-    }
-
-    $:{
-        console.log(localStorage.getItem("site") + localStorage.getItem("login"))
-        console.log(localStorage.getItem("url"))
     }
 
 </script>
@@ -60,6 +56,7 @@
                 <Route path="blogoverview" component="{Overview}" />
                 <Route path="profile" component="{Profile}" />
                 <Route path="edit/:id" component="{Editpost}"/>
+                <Route path="view/:id" component="{Viewpost}"/>
             </div>
                 </Router>
         </nav>

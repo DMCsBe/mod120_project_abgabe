@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ed1f55ed-20ad-4bdb-88ef-05f9738231fd" name="Default Changelist" comment="" />
+    <list default="true" id="ed1f55ed-20ad-4bdb-88ef-05f9738231fd" name="Default Changelist" comment="new files">
+      <change afterPath="$PROJECT_DIR$/src/Viewpost.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Editpost.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/Editpost.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Home.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/Home.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LogIn.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/LogIn.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Overview.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/Overview.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Profile.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/Profile.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SignIn.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/SignIn.svelte" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,6 +30,7 @@
         <option value="Welcome" />
         <option value="Profile" />
         <option value="Editpost" />
+        <option value="Viewpost" />
       </list>
     </option>
   </component>
@@ -27,7 +38,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1l7jy9bpLkNjlCQrcnHh8it8gni" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -55,12 +68,24 @@
       <workItem from="1607326515382" duration="11328000" />
       <workItem from="1607372200050" duration="5355000" />
       <workItem from="1607413624297" duration="9605000" />
-      <workItem from="1607430172795" duration="16478000" />
+      <workItem from="1607430172795" duration="31399000" />
     </task>
+    <task id="LOCAL-00001" summary="new files">
+      <created>1607454955656</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1607454955656</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="new files" />
+    <option name="LAST_COMMIT_MESSAGE" value="new files" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

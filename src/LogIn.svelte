@@ -1,8 +1,8 @@
 <script>
     let error = localStorage.getItem("error")
     localStorage.setItem("error", "")
-    let email = ""
-    let password = ""
+    let email = localStorage.getItem("email")
+    let password = localStorage.getItem("password")
     localStorage.setItem("doing", "login")
     function seturl() {
             fetch('https://api-m120.mailino.io/api/auth/login', {
@@ -21,7 +21,9 @@
                         location.reload()
                     }else {
                         localStorage.setItem("login", "now")
-                        localStorage.setItem("error", "wrong e-mail or password")
+                        localStorage.setItem("error", "e-mail or passoword wrong")
+                        localStorage.setItem("password", "")
+                        localStorage.setItem("email", "")
                         location.reload()
                     }
                 })

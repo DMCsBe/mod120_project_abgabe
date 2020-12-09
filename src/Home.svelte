@@ -34,20 +34,35 @@
         localStorage.setItem("id", id)
         location.reload()
     }
+    function delete_post(id){
+        fetch('https://api-m120.mailino.io/api/posts/' + id, {
+            method: 'DELETE',
+            headers: {
+                'Content-Type': 'application/json',
+                'Authorization': 'Bearer ' + localStorage.getItem('token')
+            },
+            body:{
+                'id': id
+            }
+
+        })
+    }
 </script>
 <main>
 <h1>Your Posts</h1>
     <table style="width:95%">
         <tr id="table" transition:fade>
             <th>Title</th>
-            <th>active</th>
+            <th>Views</th>
+            <th></th>
             <th></th>
         </tr>
         {#each active_true as r, i}
         <tr class="table_row" transition:fade>
             <td>{r.title}</td>
-            <td>{r.hasBeenViewedByMe}</td>
+            <td>{r.count}</td>
             <td><button on:click={() =>seturl(r.id)}>EDIT</button></td>
+            <td><button id="delete" on:click={() =>delete_post(r.id)}>DELETE</button></td>
         </tr>
         {/each}
     </table>
@@ -67,5 +82,8 @@
     }
     .table_row{
         background-color: #999999;
+    }
+    #delete{
+        background-color: red;
     }
 </style>
