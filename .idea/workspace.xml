@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ed1f55ed-20ad-4bdb-88ef-05f9738231fd" name="Default Changelist" comment="new files">
-      <change afterPath="$PROJECT_DIR$/src/Viewpost.svelte" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Editpost.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/Editpost.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Home.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/Home.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LogIn.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/LogIn.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Overview.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/Overview.svelte" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Profile.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/Profile.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SignIn.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/SignIn.svelte" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,6 +62,7 @@
       <workItem from="1607372200050" duration="5355000" />
       <workItem from="1607413624297" duration="9605000" />
       <workItem from="1607430172795" duration="31399000" />
+      <workItem from="1607472785870" duration="629000" />
     </task>
     <task id="LOCAL-00001" summary="new files">
       <created>1607454955656</created>
@@ -77,11 +71,29 @@
       <option name="project" value="LOCAL" />
       <updated>1607454955656</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="new files">
+      <created>1607472839702</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1607472839702</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="new files" />
@@ -92,7 +104,6 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/SignIn.svelte</url>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>

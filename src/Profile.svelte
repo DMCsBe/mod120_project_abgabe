@@ -1,4 +1,6 @@
 <script>
+    let error_show = localStorage.getItem("error")
+    localStorage.setItem("error", "")
     function delete_user() {
         fetch('https://api-m120.mailino.io/api/users/self', {
             method: 'GET',
@@ -29,6 +31,10 @@
                     localStorage.setItem("password", "")
                     localStorage.setItem("email", "")
                     location.reload()
+                }else{
+                    localStorage.setItem("url", "profile")
+                    localStorage.setItem("error", result.message)
+                    location.reload()
                 }
             })
         }).catch(err =>{
@@ -38,6 +44,7 @@
 </script>
 <main>
     <div>
+        <p>{error_show}</p>
         <button on:click={delete_user}>DELETE PROFIL</button>
     </div>
 </main>
@@ -47,5 +54,8 @@
 }
     div{
         text-align: center;
+    }
+    p{
+        color: red;
     }
 </style>
